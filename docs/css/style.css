@@ -1,0 +1,95 @@
+body{
+    background-image: url("images/fondo.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.tittle{
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #e6b9b9;
+    font-weight: normal;
+    font-size: 40px;
+    font-family: Arial;
+    text-align: center;
+        font-weight: bold;
+    text-transform: uppercase;
+  }
+  h2{
+    text-align: justify;
+    vertical-align: top;
+    font-size: 20px;
+    font-family: Arial;
+  }
+
+
+img.img-fluid{
+    width: 150%;
+    max-width: 400px;
+}
+
+img {
+    padding: 10px;
+     margin: 150px; 
+     float: right; 
+     width: 250px;
+    
+}
+
+.marco{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    max-width: 250px;
+    background-color: orange;
+}
+
+.marco:after {
+	display: block;
+    content: '';
+	background-color: orange;
+	padding-bottom: 100%;
+}
+
+.cont-imagen{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+table tbody {
+	display: block;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+table thead, table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+* {
+    margin:0;
+    padding:0;
+    }
+    #columna4{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:50%;
+    margin-top:10px;
+    background-color:#ffff55;
+    }
+    #columna3 {
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    background-color:#ffffbb;
+    }
